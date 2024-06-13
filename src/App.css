@@ -1,0 +1,13 @@
+body,
+html,
+#root {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    /* Prevents scrolling if background is fixed */
+}
+
+.App {
+    position: relative;
+    z-index: 1;
+}
